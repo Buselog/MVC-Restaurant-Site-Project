@@ -103,6 +103,10 @@ Veritabanı yönetimi için Entity Framework Code First, tasarım için ise Boot
 
 <img src="https://github.com/user-attachments/assets/93314cc5-d861-4c70-9125-f1e25a020c85" width:700>
 
+##### ❌ Error Page (For 404)
+<img src="https://github.com/user-attachments/assets/aae2832f-164b-4289-8c7e-363be3576349" width:700>
+
+
 ###### 📈 Dashboard
 
 <img src="https://github.com/user-attachments/assets/5102d5e6-9dc2-45bf-bed2-34b8dfd49866" width:700>
