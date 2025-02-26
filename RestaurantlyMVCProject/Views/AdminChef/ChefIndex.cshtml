@@ -1,0 +1,65 @@
+﻿@model List<RestaurantlyMVCProject.Entities.Chef>
+@{
+    ViewBag.Title = "ChefIndex";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+
+<div class="row page-titles mx-0">
+    <div class="col p-md-0">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+            <li class="breadcrumb-item active"><a href="javascript:void(0)">Chef Page</a></li>
+        </ol>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Chef List</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover verticle-middle">
+                            <thead>
+                                <tr>
+                                    <th scope="col"><b>Chef Id</b></th>
+                                    <th scope="col">Chef Name</th>
+                                    <th scope="col">Chef Title</th>
+                                    <th scope="col">Chef Image</th>
+                                    <th scope="col">Operations</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td><b>@item.ChefId</b></td>
+                                        <td>@item.ChefName</td>
+                                        <td>@item.ChefTitle</td>
+                                        <td align="center">
+                                            <img src="@item.ChefImageUrl" alt="@item.ChefName" class="img-thumbnail" style="width:150px" />
+                                        </td>
+                                        <td align="center">
+                                            <a href="/AdminChef/UpdateChef/@item.ChefId" class="btn btn-check gradient-1 col-5"><i class="fa-solid fa-pen"></i></a>
+                                            &nbsp;
+                                            <a href="/AdminChef/DeleteChef/@item.ChefId" class="btn btn-check gradient-2 col-5"><i class="fa-solid fa-xmark"></i></a>
+                                        </td>
+
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <a href="/AdminChef/AddNewChef/" class="btn btn-success gradient" style="color:white">Add New Chef<span class="btn-icon-right"><i class="fa-solid fa-plus"></i></span></a>
+            <br />
+            <br />
+        </div>
+    </div>
+</div>
+

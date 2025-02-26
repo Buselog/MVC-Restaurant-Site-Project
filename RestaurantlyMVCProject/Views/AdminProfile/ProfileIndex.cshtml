@@ -1,0 +1,67 @@
+﻿@model RestaurantlyMVCProject.Entities.Admin
+@{
+    ViewBag.Title = "ProfileIndex";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+
+<div class="row page-titles mx-0">
+    <div class="col p-md-0">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+            <li class="breadcrumb-item active"><a href="javascript:void(0)">Admin Profile</a></li>
+        </ol>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Admin Profile</h4>
+                <div class="basic-form">
+                    <form method="post">
+
+                        <div class="form-group">
+                            <br />
+                            @Html.HiddenFor(a => a.AdminId)
+
+                            <label>Name</label>
+                            <br />
+                            @Html.TextBoxFor(a => a.Name, new { @class = "form-control" })
+                            <br />
+                            <label>Surname</label>
+                            <br />
+                            @Html.TextBoxFor(a => a.Surname, new { @class = "form-control" })
+                            <br />
+                            <label>Email</label>
+                            <br />
+                            @Html.TextBoxFor(a => a.Email, new { @class = "form-control" })
+                            <br />
+                            <label>User Name</label>
+                            <br />
+                            @Html.TextBoxFor(a => a.UserName, new { @class = "form-control" })
+                            <br />
+                            <label>Password</label>
+                            <br />
+                            @Html.TextBoxFor(a => a.Password, new { @class = "form-control" })
+                            <br />
+                            <label>Image Url</label>
+                            <br />
+                            @Html.TextBoxFor(a => a.ImageUrl,  new { @class = "form-control" })
+
+                        </div>
+
+                        <button type="submit" class="btn btn-check gradient-1">
+                            Save Changes<span class="btn-icon-right"><i class="fa-solid fa-pen"></i></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

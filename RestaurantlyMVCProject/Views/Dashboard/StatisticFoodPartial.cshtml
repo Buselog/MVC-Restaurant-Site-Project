@@ -1,0 +1,34 @@
+﻿@model List<RestaurantlyMVCProject.Entities.Product>
+
+
+<div class="row">
+    <div class="col-12 m-b-30">
+        <h4 class="d-inline">Last Added Foods</h4>
+        <p class="text-muted">The latest dishes included in the menu</p>
+        <div class="row">
+
+            @foreach (var item in Model)
+            {
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img class="img-fluid" src="@item.ProductImageUrl" alt="@item.ProductName">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.ProductName</h5>
+                            <p class="card-text">@item.ProductDescription</p>
+                            <p class="card-text">
+                                <small class="text-muted">@item.ProductPrice</small>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="card-text d-inline">
+                                <small class="text-muted" style="font-size: 0.8rem;">Category: @item.Category.CategoryName</small>
+                            </p><a href="/AdminProduct/UpdateProduct/@item.ProductId" class="card-link float-right"><small class="font-weight-semi-bold" style="font-size: 0.8rem;">Click to Details and Change</small></a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
+

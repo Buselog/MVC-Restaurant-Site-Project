@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\views\\adminlayout\\partialhead.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:views\\adminlayout\\partialhead.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\views\\adminlayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:views\\adminlayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\controllers\\adminlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:controllers\\adminlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\views\\adminlayout\\partialnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:views\\adminlayout\\partialnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\views\\dashboard\\dashboardindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:views\\dashboard\\dashboardindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\controllers\\restaurantlylayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:controllers\\restaurantlylayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\views\\restaurantlylayout\\partialcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:views\\restaurantlylayout\\partialcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\controllers\\admincontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:controllers\\admincontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\views\\admincontact\\contactindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:views\\admincontact\\contactindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\views\\admingallery\\galleryindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:views\\admingallery\\galleryindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\views\\adminchef\\chefindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:views\\adminchef\\chefindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\views\\adminevent\\eventindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:views\\adminevent\\eventindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\views\\adminspecial\\specialindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:views\\adminspecial\\specialindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\views\\adminproduct\\productindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:views\\adminproduct\\productindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\controllers\\adminproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:controllers\\adminproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\views\\admintestimonial\\testimonialindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:views\\admintestimonial\\testimonialindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\views\\restaurantlylayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:views\\restaurantlylayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\source\\repos\\restaurantlymvcproject\\controllers\\adminerrorpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:controllers\\adminerrorpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 240,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminLayoutController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Controllers\\AdminLayoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminLayoutController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Controllers\\AdminLayoutController.cs",
+              "RelativeToolTip": "Controllers\\AdminLayoutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:10:23.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PartialNavbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminLayout\\PartialNavbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminLayout\\PartialNavbar.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminLayout\\PartialNavbar.cshtml",
+              "RelativeToolTip": "Views\\AdminLayout\\PartialNavbar.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T10:10:08.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PartialHead.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminLayout\\PartialHead.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminLayout\\PartialHead.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminLayout\\PartialHead.cshtml",
+              "RelativeToolTip": "Views\\AdminLayout\\PartialHead.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T10:09:37.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminLayout\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminLayout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminLayout\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdminLayout\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T10:09:34.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\Dashboard\\DashboardIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\DashboardIndex.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\Dashboard\\DashboardIndex.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\DashboardIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T10:09:22.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RestaurantlyLayoutController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Controllers\\RestaurantlyLayoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RestaurantlyLayoutController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Controllers\\RestaurantlyLayoutController.cs",
+              "RelativeToolTip": "Controllers\\RestaurantlyLayoutController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAADwv0wAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:08:12.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PartialContact.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\RestaurantlyLayout\\PartialContact.cshtml",
+              "RelativeDocumentMoniker": "Views\\RestaurantlyLayout\\PartialContact.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\RestaurantlyLayout\\PartialContact.cshtml",
+              "RelativeToolTip": "Views\\RestaurantlyLayout\\PartialContact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T10:08:06.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminContactController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Controllers\\AdminContactController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminContactController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Controllers\\AdminContactController.cs",
+              "RelativeToolTip": "Controllers\\AdminContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:07:18.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContactIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminContact\\ContactIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminContact\\ContactIndex.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminContact\\ContactIndex.cshtml",
+              "RelativeToolTip": "Views\\AdminContact\\ContactIndex.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T10:07:12.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GalleryIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminGallery\\GalleryIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminGallery\\GalleryIndex.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminGallery\\GalleryIndex.cshtml",
+              "RelativeToolTip": "Views\\AdminGallery\\GalleryIndex.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T10:06:13.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChefIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminChef\\ChefIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminChef\\ChefIndex.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminChef\\ChefIndex.cshtml",
+              "RelativeToolTip": "Views\\AdminChef\\ChefIndex.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T10:04:57.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminEvent\\EventIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminEvent\\EventIndex.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminEvent\\EventIndex.cshtml",
+              "RelativeToolTip": "Views\\AdminEvent\\EventIndex.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAD4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T10:04:37.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SpecialIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminSpecial\\SpecialIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminSpecial\\SpecialIndex.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminSpecial\\SpecialIndex.cshtml",
+              "RelativeToolTip": "Views\\AdminSpecial\\SpecialIndex.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T10:04:17.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminProduct\\ProductIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminProduct\\ProductIndex.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminProduct\\ProductIndex.cshtml",
+              "RelativeToolTip": "Views\\AdminProduct\\ProductIndex.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T10:03:56.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminProductController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Controllers\\AdminProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminProductController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Controllers\\AdminProductController.cs",
+              "RelativeToolTip": "Controllers\\AdminProductController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:03:51.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TestimonialIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminTestimonial\\TestimonialIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminTestimonial\\TestimonialIndex.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\AdminTestimonial\\TestimonialIndex.cshtml",
+              "RelativeToolTip": "Views\\AdminTestimonial\\TestimonialIndex.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T10:03:07.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminErrorPageController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Controllers\\AdminErrorPageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminErrorPageController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Controllers\\AdminErrorPageController.cs",
+              "RelativeToolTip": "Controllers\\AdminErrorPageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:00:11.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\RestaurantlyLayout\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\RestaurantlyLayout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\RestaurantlyMVCProject\\Views\\RestaurantlyLayout\\Index.cshtml",
+              "RelativeToolTip": "Views\\RestaurantlyLayout\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T09:55:42.082Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

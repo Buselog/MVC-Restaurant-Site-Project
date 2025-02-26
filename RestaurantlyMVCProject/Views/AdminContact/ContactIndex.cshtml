@@ -1,0 +1,61 @@
+﻿@model List<RestaurantlyMVCProject.Entities.Contact>
+@{
+    ViewBag.Title = "ContactIndex";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="row page-titles mx-0">
+    <div class="col p-md-0">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+            <li class="breadcrumb-item active"><a href="javascript:void(0)">Contact List</a></li>
+        </ol>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Contact List</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover verticle-middle">
+                            <thead>
+                                <tr>
+                                    <th scope="col"><b>Contact Id</b></th>
+                                    <th scope="col">Contact Name</th>
+                                    <th scope="col">Contact Email</th>
+                                    <th scope="col">Contact Subject</th>
+                                    <th scope="col">Contact Message</th>
+                                    <th scope="col">Contact Send Date</th>
+                                    <th scope="col">Contact Read Situation</th>
+                                    <th scope="col">Operations</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td><b>@item.ContactId</b></td>
+                                        <td>@item.ContactName</td>
+                                        <td>@item.ContactEmail</td>
+                                        <td>@item.ContactSubject</td>
+                                        <td>@item.ContactMessage</td>
+                                        <td>@item.ContactSendDate</td>
+                                        <td>@item.ContactIsRead</td>
+                                        <td align="center">
+                                            <a href="/AdminContact/DeleteContact/@item.ContactId" class="btn btn-check gradient-2 col-10"><i class="fa-solid fa-xmark"></i></a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

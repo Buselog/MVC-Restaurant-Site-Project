@@ -1,0 +1,51 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+@Html.Partial("~/Views/AdminLayout/PartialHead.cshtml")
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+
+    <div id="main-wrapper">
+
+        <div class="nav-header">
+            <div class="brand-logo">
+                <a href="/Dashboard/DashboardIndex">
+                    <h3 style="color:whitesmoke; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Restaurantly</h3>
+                </a>
+            </div>
+        </div>
+
+        @Html.Action("PartialNavbar", "AdminLayout")
+
+
+        @Html.Partial("~/Views/AdminLayout/PartialSidebar.cshtml")
+
+        <div class="content-body">
+            @RenderBody()
+
+        </div>
+
+
+        @Html.Partial("~/Views/AdminLayout/PartialFooter.cshtml")
+
+    </div>
+
+    @Html.Action("PartialScript", "AdminLayout")
+
+</body>
+</html>

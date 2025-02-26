@@ -1,0 +1,67 @@
+﻿@model List<RestaurantlyMVCProject.Entities.Event>
+@{
+    ViewBag.Title = "EventIndex";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="row page-titles mx-0">
+    <div class="col p-md-0">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+            <li class="breadcrumb-item active"><a href="javascript:void(0)">Event List</a></li>
+        </ol>
+    </div>
+</div>
+<!-- row -->
+
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Event List</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered verticle-middle">
+                            <thead>
+                                <tr>
+                                    <th scope="col"><b>Event Id</b></th>
+                                    <th scope="col">Event Title</th>
+                                    <th scope="col">Event Price Range</th>
+                                    <th scope="col" class="col-lg-4">Description</th>
+                                    <th scope="col">Event Image</th>
+                                    <th scope="col">Operations</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td><b>@item.EventId</b></td>
+                                        <td>@item.EventTitle</td>
+                                        <td>₺@item.EventPriceRange</td>
+                                        <td>@item.Description</td>
+                                        <td align="center">
+                                            <img src="@item.EventImageUrl" alt="@item.EventImageUrl" class="img-thumbnail" style="width:150px" />
+                                        </td>
+                                        <td align="center">
+                                            <a href="/AdminEvent/UpdateEvent/@item.EventId" class="btn btn-check gradient-1 col-4 d-flex justify-content-center"><i class="fa-solid fa-pen"></i></a>
+                                            &nbsp;
+                                            <a href="/AdminEvent/DeleteEvent/@item.EventId" class="btn btn-check gradient-2 col-4 d-flex justify-content-center "><i class="fa-solid fa-xmark"></i></a>
+                                        </td>
+
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <a href="/AdminEvent/AddNewEvent/" class="btn btn-success gradient" style="color:white">Add Event<span class="btn-icon-right"><i class="fa-solid fa-plus"></i></span></a>
+            <br /><br />
+        </div>
+    </div>
+</div>
+

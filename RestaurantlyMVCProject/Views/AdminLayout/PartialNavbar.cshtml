@@ -1,0 +1,99 @@
+﻿@model RestaurantlyMVCProject.Entities.NavBarContent
+
+<div class="header">
+    <div class="header-content clearfix">
+
+        <div class="nav-control">
+            <div class="hamburger">
+                <span class="toggle-icon"><i class="icon-menu"></i></span>
+            </div>
+        </div>
+
+        <div class="header-right">
+            <ul class="clearfix">
+                <li class="icons dropdown">
+                    <a href="#" data-toggle="dropdown">
+                        <i class="mdi mdi-email-outline"></i>
+                        <span class="badge gradient-1 badge-pill badge-primary">@ViewBag.MessagesCount</span>
+                    </a>
+                    <div class="drop-down animated fadeIn dropdown-menu">
+                        <div class="dropdown-content-heading d-flex justify-content-between">
+                            <span class="">@ViewBag.MessagesCount New Messages</span>
+
+                        </div>
+                        <div class="dropdown-content-body">
+                            <ul>
+                                @foreach (var item in Model.Messages)
+                                {
+                                    <li class="notification-unread">
+                                        <a href="/AdminLayout/MessageStatusChange/@item.MessagesId">
+                                            <span class="mr-3 avatar-icon" style="background-color:@item.IconColor; color:whitesmoke"><i class="@item.Icon"></i></span>
+                                            <div class="notification-content">
+                                                <div class="notification-heading">@item.SenderName</div>
+                                                <div class="notification-timestamp">@item.SendDate.ToString("dd.MM.yyyy")</div>
+                                                <div class="notification-text">@item.Message...</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+
+                        </div>
+                    </div>
+                </li>
+
+                <li class="icons dropdown">
+                    <a href="#" data-toggle="dropdown">
+                        <i class="mdi mdi-bell-outline"></i>
+                        <span class="badge badge-pill gradient-2 badge-primary">@ViewBag.NotificationCount</span>
+                    </a>
+                    <div class="drop-down animated fadeIn dropdown-menu dropdown-notfication">
+                        <div class="dropdown-content-heading d-flex justify-content-between">
+                            <span class="">@ViewBag.NotificationCount New Notifications</span>
+
+                        </div>
+                        <div class="dropdown-content-body">
+                            <ul>
+                                @foreach (var item in Model.Notifications)
+                                {
+                                    <li>
+                                        <a href="/AdminLayout/NotificationStatusChange/@item.NotificationId">
+                                            <span class="mr-3 avatar-icon bg-success-lighten-2" style="background-color:@item.IconColor"><i class="@item.Icon"></i></span>
+                                            <div class="notification-content">
+                                                <h6 class="notification-heading">@item.Title</h6>
+                                                <span class="notification-text">@item.SendTime.ToString("dd.MM.yyyy")</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                }
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="icons dropdown">
+                    <div class="user-img c-pointer position-relative" data-toggle="dropdown">
+                        <span class="activity active"></span>
+                        <img src="/Template/adminpanel/images/me.jpg" height="40" width="40" alt="">
+                    </div>
+                    <div class="drop-down dropdown-profile   dropdown-menu">
+                        <div class="dropdown-content-body">
+                            <ul>
+                                <li>
+                                    <a href="/AdminProfile/ProfileIndex"><i class="icon-user"></i> <span>Profile</span></a>
+                                </li>
+
+                                @*<hr class="my-2"></hr>*@
+                      
+                                <li><a href="/Login/LogOut"><i class="icon-key"></i> <span>Logout</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

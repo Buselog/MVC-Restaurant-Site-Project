@@ -1,0 +1,55 @@
+﻿@model RestaurantlyMVCProject.Entities.Special
+@{
+    ViewBag.Title = "UpdateSpecial";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="row page-titles mx-0">
+    <div class="col p-md-0">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+            <li class="breadcrumb-item active"><a href="javascript:void(0)">Update Special</a></li>
+        </ol>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Update Special</h4>
+                <div class="basic-form">
+                    <form method="post">
+
+                        <div class="form-group">
+                            <br />
+                            @Html.HiddenFor(a => a.SpecialId)
+                            <label>Special Name</label>
+                            <br />
+                            @Html.TextBoxFor(a => a.SpecialName, new { @class = "form-control" })
+                            <br />
+                            <label>Special Short Description</label>
+                            <br />
+                            @Html.TextBoxFor(a => a.SpecialShortDescription, new { @class = "form-control" })
+                            <br />
+                            <label>Special Full Description</label>
+                            <br />
+                            @Html.TextBoxFor(a => a.SpecialFullDescription, new { @class = "form-control" })
+                            <br />
+                            <label>Special Image Url</label>
+                            <br />
+                            @Html.TextBoxFor(a => a.SpecialImageUrl, new { @class = "form-control" })
+                            <br />
+                        </div>
+
+                        <button type="submit" class="btn btn-check gradient-1">
+                            Save Changes<span class="btn-icon-right"><i class="fa-solid fa-pen"></i></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,55 @@
+﻿@model RestaurantlyMVCProject.Entities.Event
+@{
+    ViewBag.Title = "UpdateEvent";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="row page-titles mx-0">
+    <div class="col p-md-0">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+            <li class="breadcrumb-item active"><a href="javascript:void(0)">Update Event</a></li>
+        </ol>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Update Event</h4>
+                <div class="basic-form">
+                    <form method="post">
+
+                        <div class="form-group">
+                            <br />
+                            @Html.HiddenFor(a => a.EventId)
+                            <label>Event Title</label>
+                            <br />
+                            @Html.TextBoxFor(a => a.EventTitle, new { @class = "form-control" })
+                            <br />
+                            <label>Price Range</label>
+                            <br />
+                            @Html.TextBoxFor(a => a.EventPriceRange, new { @class = "form-control" })
+                            <br />
+                            <label>Description</label>
+                            <br />
+                            @Html.TextBoxFor(a => a.Description, new { @class = "form-control" })
+                            <br />
+                            <label>Image Url</label>
+                            <br />
+                            @Html.TextBoxFor(a => a.EventImageUrl, new { @class = "form-control" })
+                        </div>
+
+                        <button type="submit" class="btn btn-check gradient-1">
+                            Save Changes<span class="btn-icon-right"><i class="fa-solid fa-pen"></i></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,104 @@
+﻿@model List<RestaurantlyMVCProject.Entities.Reservation>
+@{
+    ViewBag.Title = "ReservationIndex";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+
+<div class="row page-titles mx-0">
+    <div class="col p-md-0">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+            <li class="breadcrumb-item active"><a href="javascript:void(0)">Reservation List</a></li>
+        </ol>
+    </div>
+</div>
+<!-- row -->
+
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Reservation List</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover verticle-middle">
+                            <thead>
+                                <tr>
+                                    <th scope="col"><b>Reservation Id</b></th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Mail</th>
+                                    <th scope="col">Phone</th>
+                                    <th scope="col" class="col-lg-2">Reservation Description</th>
+                                    <th scope="col">Reservation Date</th>
+                                    <th scope="col">Reservation Time</th>
+                                    <th scope="col">Guest Count</th>
+                                    <th scope="col">Reservation Status</th>
+                                    <th scope="col">Operations</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td><b>@item.ReservationId</b></td>
+                                        <td>@item.ReservationName</td>
+                                        <td><a href="mailto:@item.ReservationEmail">@item.ReservationEmail</a></td>
+                                        <td><a href="tel:@item.ReservationPhone">@item.ReservationPhone</a></td>
+                                        <td>@item.ReservationDescription</td>
+                                        <td>@item.ReservationDate.ToString("dd.MM.yyyy")</td>
+                                        <td>@item.ReservationTime</td>
+                                        <td>@item.ReservationGuestCount</td>
+                                        @switch (item.ReservationSatatus)
+                                        {
+                                            case "Approved":
+                                                <td style="color:green" align="center"><b>@item.ReservationSatatus</b></td>
+                                                break;
+
+                                            case "On Hold":
+                                                <td style="color:darkorange" align="center"><b>@item.ReservationSatatus</b></td>
+                                                break;
+
+                                            case "Reject":
+                                                <td style="color:red" align="center"><b>@item.ReservationSatatus</b></td>
+                                                break;
+
+                                            default:
+                                                <td align="center"><b>@item.ReservationSatatus</b></td>
+                                                break;
+
+
+                                        }
+
+                                        <td align="center" class="px-10 py-2">
+
+                                            <a href="/AdminReservation/ApproveReservation/@item.ReservationId" class="btn btn-check gradient-7 row-cols-2 mb-2 w-100">Approve</a>
+                                            <br />
+                                            <br />
+                                            <a href="/AdminReservation/HoldReservation/@item.ReservationId" class="btn btn-check gradient-9 row-cols-2 mb-2 w-100"> Hold</a>
+                                            <br />
+                                            <br />
+                                            <a href="/AdminReservation/RejectReservation/@item.ReservationId" class="btn btn-check gradient-2 row-cols-2 mb-2 w-100">Reject</a>
+                                        </td>
+
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+@*@if (item.ReservationSatatus == "Approved")
+    {
+        <td style="color:green"><b>@item.ReservationSatatus</b></td>
+    }
+    else if ()*@

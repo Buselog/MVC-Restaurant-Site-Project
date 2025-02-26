@@ -1,0 +1,28 @@
+﻿@model List<RestaurantlyMVCProject.Entities.Event>
+
+<div class="col-lg-6">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Last 3 Events Added to the Site</h4>
+            <div id="accordion-two" class="accordion">
+                @foreach (var item in Model)
+                {
+                    var uniqueId = "collapse2-" + item.EventId; // Benzersiz ID oluştur
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-0 collapsed" data-toggle="collapse" data-target="#@uniqueId"
+                                aria-expanded="false" aria-controls="@uniqueId">
+                                <i class="fa" aria-hidden="true"></i> @item.EventTitle
+                            </h5>
+                        </div>
+                        <div id="@uniqueId" class="collapse" data-parent="#accordion-two">
+                            <div class="card-body">@item.Description</div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+

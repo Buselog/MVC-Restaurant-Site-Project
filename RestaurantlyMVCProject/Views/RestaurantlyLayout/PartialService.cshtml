@@ -1,0 +1,29 @@
+﻿@model IEnumerable<RestaurantlyMVCProject.Entities.Service>
+
+<section id="why-us" class="why-us">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Why Us</h2>
+            <p>Why Choose Our Restaurant</p>
+        </div>
+
+        <div class="row">
+
+
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 mt-4 mt-lg-0">
+                    <div class="box" data-aos="zoom-in" data-aos-delay="300">
+                        <span>@item.ServiceTitle</span>
+                        <br />
+                        <p>@item.ServiceDescription</p>
+                    </div>
+                </div>
+            }
+
+
+        </div>
+
+    </div>
+</section>

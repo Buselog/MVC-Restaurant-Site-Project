@@ -1,0 +1,54 @@
+﻿@model List<RestaurantlyMVCProject.Entities.Reservation>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="active-member">
+                    <div class="table-responsive">
+                        <table class="table table-hover table-xs mb-0">
+                            <thead>
+                                <tr>
+                                    <th>Customer Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th class="col-md-3">Description</th>
+                                    <th>Reservation Status</th>
+                                    <th>Operation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td align="center"><i>@item.ReservationName</i></td>
+                                        <td><a href="mailto:@item.ReservationEmail">@item.ReservationEmail</a></td>
+                                        <td>
+                                            <span>@item.ReservationPhone</span>
+                                        </td>
+                                        <td>@item.ReservationDescription</td>
+                                        @if (item.ReservationSatatus == "Approved")
+                                        {
+                                            <td><i class="fa fa-circle-o text-success  mr-2"></i>@item.ReservationSatatus</td>
+                                        }
+                                        else if (item.ReservationSatatus == "On Hold")
+                                        {
+                                            <td><i class="fa fa-circle-o text-info  mr-2"></i>@item.ReservationSatatus</td>
+                                        }
+                                        else
+                                        {
+                                            <td><i class="fa fa-circle-o text-danger  mr-2"></i>@item.ReservationSatatus</td>
+                                        }
+                                        <td align="center">
+                                            <span><a class="btn btn-check gradient-4 " href="/AdminReservation/ReservationIndex">Change & Detail</a></span>
+
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

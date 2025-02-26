@@ -1,0 +1,77 @@
+﻿@model List<RestaurantlyMVCProject.Entities.Product>
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger">
+        <strong>Hata:</strong> @ViewBag.ErrorMessage
+    </div>
+}
+
+
+
+
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Most Expensive Dishes On The Menu By Category</h4>
+            <ul class="nav nav-pills mb-3">
+                <li class="nav-item">
+                    <a href="#navpills-1" class="nav-link active" data-toggle="tab" aria-expanded="false">Starter</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#navpills-2" class="nav-link" data-toggle="tab" aria-expanded="false">Salad</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#navpills-3" class="nav-link" data-toggle="tab" aria-expanded="true">Special</a>
+                </li>
+            </ul>
+            <div class="tab-content br-n pn">
+                <div id="navpills-1" class="tab-pane active">
+                    <div class="row align-items-center">
+                        @foreach (var item in ViewBag.MostExpensiveStarter)
+                        {
+                            <div class="col-sm-6 col-md-4 col-xl-2">
+                                <img src="@item.ProductImageUrl" alt="@item.ProductName" class="img-fluid thumbnail m-r-15">
+                            </div>
+                            <div class="col-sm-6 col-md-8 col-xl-10">
+                                <h5>@item.ProductName</h5>
+                                <p>@item.ProductDescription</p>
+                                <p>₺ @item.ProductPrice</p>
+                            </div>
+                        }
+
+                    </div>
+                </div>
+                <div id="navpills-2" class="tab-pane">
+                    <div class="row align-items-center">
+                        @foreach (var item in ViewBag.MostExpensiveSalad)
+                        {
+                            <div class="col-sm-6 col-md-4 col-xl-2">
+                                <img src="@item.ProductImageUrl" alt="@item.ProductName" class="img-fluid thumbnail m-r-15">
+                            </div>
+                            <div class="col-sm-6 col-md-8 col-xl-10">
+                                <h5>@item.ProductName</h5>
+                                <p>@item.ProductDescription</p>
+                                <p>₺ @item.ProductPrice</p>
+                            </div>
+                        }
+
+                    </div>
+                </div>
+                <div id="navpills-3" class="tab-pane">
+                    <div class="row align-items-center">
+                        @foreach (var item in ViewBag.MostExpensiveSpecial)
+                        {
+                            <div class="col-sm-6 col-md-4 col-xl-2">
+                                <img src="@item.ProductImageUrl" alt="@item.ProductName" class="img-fluid thumbnail m-r-15">
+                            </div>
+                            <div class="col-sm-6 col-md-8 col-xl-10">
+                                <h5>@item.ProductName</h5>
+                                <p>@item.ProductDescription</p>
+                                <p>₺ @item.ProductPrice</p>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+

@@ -1,0 +1,67 @@
+﻿@model List<RestaurantlyMVCProject.Entities.Testimonial>
+@{
+    ViewBag.Title = "TestimonialIndex";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+
+<div class="row page-titles mx-0">
+    <div class="col p-md-0">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+            <li class="breadcrumb-item active"><a href="javascript:void(0)">Testimonial List</a></li>
+        </ol>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Testimonial List</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover verticle-middle">
+                            <thead>
+                                <tr>
+                                    <th scope="col"><b>Testimonial Id</b></th>
+                                    <th scope="col">Testimonial Name</th>
+                                    <th scope="col">Testimonial Title</th>
+                                    <th scope="col" class="col-md-4">Testimonial Description</th>
+                                    <th scope="col">Testimonial Image</th>
+                                    <th scope="col" class="col-lg-2">Operations</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td><b>@item.TestimonialId</b></td>
+                                        <td>@item.TestimonialName</td>
+                                        <td>@item.TestimonialTitle</td>
+                                        <td>@item.TestimonialDescription</td>
+                                        <td align="center">
+                                            <img src="@item.TestimonialImageUrl" alt="@item.TestimonialName" class="img-thumbnail" style="width:120px" />
+                                        </td>
+                                        <td align="center">
+                                            <a href="/AdminTestimonial/UpdateTestimonial/@item.TestimonialId" class="btn btn-check gradient-1 col-5"><i class="fa-solid fa-pen"></i></a>
+                                            &nbsp;
+                                            <a href="/AdminTestimonial/DeleteTestimonial/@item.TestimonialId" class="btn btn-check gradient-2 col-5"><i class="fa-solid fa-xmark"></i></a>
+                                        </td>
+
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <a href="/AdminTestimonial/AddNewTestimonial/" class="btn btn-success gradient" style="color:white">Add New Testimonial<span class="btn-icon-right"><i class="fa-solid fa-plus"></i></span></a>
+            <br />
+            <br />
+
+        </div>
+    </div>
+</div>

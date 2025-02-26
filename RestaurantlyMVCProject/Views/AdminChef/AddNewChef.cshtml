@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "AddNewChef";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="row page-titles mx-0">
+    <div class="col p-md-0">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+            <li class="breadcrumb-item active"><a href="javascript:void(0)">Add New Chef</a></li>
+        </ol>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="col-lg-12">
+
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Add New Chef</h4>
+                <div class="basic-form">
+                    <form method="post">
+
+                        <div class="form-group">
+                            <br />
+                            <label>Chef Name</label>
+                            <br />
+                            <input type="text" name="ChefName" class="form-control" placeholder="Chef Name">
+                            <br />
+                            <label>Chef Title</label>
+                            <br />
+                            <input type="text" name="ChefTitle" class="form-control" placeholder="Chef Title">
+                            <br />
+                            <label>Chef Image Url</label>
+                            <br />
+                            <input type="text" name="ChefImageUrl" class="form-control" placeholder="Chef Image Url">
+                            <br />
+                        </div>
+
+                        <button type="submit" class="btn btn-check gradient-1">
+                         Add Chef<span class="btn-icon-right"><i class="fa-solid fa-circle-chevron-down"></i></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
