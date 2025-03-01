@@ -25,8 +25,9 @@ Veritabanı yönetimi için Entity Framework Code First, tasarım için ise Boot
     - Dinamik HTML içerik oluşturma
     
 ###### 🌟 Admin Paneli
-    - Yönetici yetkisiyle içerik ekleme, güncelleme ve silme işlemleri; siteden gelen rezervasyon ve iletişim 
-    bilgilerinin bildirim ve kontrolü, rezervasyon onayı, iptali ve bekletme işlemleri.
+    - Yönetici yetkisiyle içerik ekleme, güncelleme ve silme işlemleri; siteden gelen 
+    rezervasyon ve iletişim bilgilerinin bildirim ve kontrolü, rezervasyon onayı, 
+    iptali ve bekletme işlemleri.
 
 ###### 🌟 Authorize İşlemi
     - Sayfalara erişimin kısıtlandırılması, site güvenliği
