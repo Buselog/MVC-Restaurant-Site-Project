@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\BUSE\\Documents\\GitHub\\MVC-Restaurant-Site-Project\\RestaurantlyMVCProject\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|c:\\users\\buse\\documents\\github\\mvc-restaurant-site-project\\restaurantlymvcproject\\views\\adminprofile\\profileindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5A0444-D1A0-48E3-B239-ACD8E087FAB4}|RestaurantlyMVCProject.csproj|solutionrelative:views\\adminprofile\\profileindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 247,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfileIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\Documents\\GitHub\\MVC-Restaurant-Site-Project\\RestaurantlyMVCProject\\Views\\AdminProfile\\ProfileIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminProfile\\ProfileIndex.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\Documents\\GitHub\\MVC-Restaurant-Site-Project\\RestaurantlyMVCProject\\Views\\AdminProfile\\ProfileIndex.cshtml",
+              "RelativeToolTip": "Views\\AdminProfile\\ProfileIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T08:00:24.809Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
