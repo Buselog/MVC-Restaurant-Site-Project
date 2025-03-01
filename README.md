@@ -3,6 +3,8 @@
 Bu proje, ASP.NET MVC ve Code First yöntemi kullanılarak geliştirilmiş admin panelli restoran sitesidir. Kullanıcılar; restoran, menü içeriği, organizasyonlar hakkında bilgi sahibi olabilir ve dilediği takdirde rezervasyon talebi oluşturabilir, sormak istediği sorular için iletişime geçebilir. 
 Veritabanı yönetimi için Entity Framework Code First, tasarım için ise Bootstrap kullanılmıştır. 
 
+Projeyi canlı incelemek için tıklayın:
+<a href="http://restaurantlyy.somee.com/" target="_blank"> 🥗 Restaurantly</a>
 
 -----
 
