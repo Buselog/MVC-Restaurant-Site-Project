@@ -5187,9 +5187,6 @@
     <Content Include="Template\adminpanel\ui-tab.html" />
     <Content Include="Template\adminpanel\ui-typography.html" />
     <Content Include="Template\adminpanel\widgets.html" />
-    <Content Include="Template\errorpage401\css\style.css" />
-    <Content Include="Template\errorpage401\index.html" />
-    <Content Include="Template\errorpage401\readme.txt" />
     <Content Include="Template\errorpage404\css\style.css" />
     <Content Include="Template\errorpage404\img\emoji.png" />
     <Content Include="Template\errorpage404\index.html" />
@@ -5762,9 +5759,11 @@
     <Content Include="Views\Dashboard\LastSavedServicesPartial.cshtml" />
     <Content Include="Views\Dashboard\LastSavedEventsPartial.cshtml" />
     <Content Include="Views\RestaurantlyLayout\PartialScript.cshtml" />
+    <Content Include="Views\AdminProfile\ChangePasswordIndex.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="images\" />
     <Folder Include="Models\Classes\" />
     <Folder Include="Views\AdminStatistic\" />
   </ItemGroup>

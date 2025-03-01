@@ -4,12 +4,17 @@
     Layout = "~/Views/AdminLayout/Index.cshtml";
 }
 
+@*@{
+        bool showUpload = Context.Request.QueryString["change"] == "true";
+        string imageUrl = Request.QueryString["ImageUrl"];
+    }*@
+
 
 <div class="row page-titles mx-0">
     <div class="col p-md-0">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-            <li class="breadcrumb-item active"><a href="javascript:void(0)">Admin Profile</a></li>
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active"><a href="#">Admin Profile</a></li>
         </ol>
     </div>
 </div>
@@ -21,41 +26,78 @@
             <div class="card-body">
                 <h4 class="card-title">Admin Profile</h4>
                 <div class="basic-form">
-                    <form method="post">
+                    <form method="post" enctype="multipart/form-data">
 
                         <div class="form-group">
                             <br />
-                            @Html.HiddenFor(a => a.AdminId)
+
+                            <input type="hidden" name="AdminId" value="@Model.AdminId" class="form-control" />
 
                             <label>Name</label>
                             <br />
-                            @Html.TextBoxFor(a => a.Name, new { @class = "form-control" })
+                            <input type="text" name="Name" value="@Model.Name" class="form-control" />
                             <br />
                             <label>Surname</label>
                             <br />
-                            @Html.TextBoxFor(a => a.Surname, new { @class = "form-control" })
+                            <input type="text" name="Surname" value="@Model.Surname" class="form-control" />
                             <br />
                             <label>Email</label>
                             <br />
-                            @Html.TextBoxFor(a => a.Email, new { @class = "form-control" })
+                            <input type="text" name="Email" value="@Model.Email" class="form-control" />
                             <br />
                             <label>User Name</label>
                             <br />
-                            @Html.TextBoxFor(a => a.UserName, new { @class = "form-control" })
+                            <input type="text" name="UserName" value="@Model.UserName" class="form-control" />
                             <br />
                             <label>Password</label>
                             <br />
-                            @Html.TextBoxFor(a => a.Password, new { @class = "form-control" })
+                            <input type="text" name="Password" value="@Model.Password" class="form-control" readonly />
                             <br />
-                            <label>Image Url</label>
+                            @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                            {
+                                <div class="mt-2">
+                                    <p>Current Image</p>
+                                    <img src="@Model.ImageUrl" style="width:100px; height:100px" class="img-thumbnail" />
+
+                                </div>
+                                <br />
+
+                            }
+
+                            <input type="text" name="@Model.ImageUrl" value="@Model.ImageUrl" class="form-control" />
+
                             <br />
-                            @Html.TextBoxFor(a => a.ImageUrl,  new { @class = "form-control" })
+                            <label>Download Image</label>
+                            <br />
+                            <input type="file" name="ImageFile" value="@Model.ImageFile" class="form-control" />
+
+
+
+
+                            @*@if (!string.IsNullOrEmpty(imageUrl) && showUpload)
+                                {
+                                    <div class="mt-2">
+                                        <p>Current Image</p>
+                                        <img src="@imageUrl" style="width:100px; height:100px" class="img-thumbnail" />
+                                    </div>
+                                    <br />
+                                    <a href="?change=true" class="btn btn-primary btn-sm">Change Image</a>
+                                }
+                                else
+                                {
+                                    <label>Download Image</label>
+                                    <br />
+                                    <input type="file" name="ImageFile" class="form-control" />
+                                }*@
+
 
                         </div>
 
                         <button type="submit" class="btn btn-check gradient-1">
                             Save Changes<span class="btn-icon-right"><i class="fa-solid fa-pen"></i></span>
                         </button>
+                        &nbsp;
+                        <a href="/AdminProfile/ChangePasswordIndex" class="btn btn-check gradient-2">Change Password</a>
                     </form>
                 </div>
             </div>

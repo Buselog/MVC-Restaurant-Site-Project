@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -30,11 +31,49 @@ namespace RestaurantlyMVCProject.Controllers
             values.Email = updatedAdmin.Email;
             values.UserName = updatedAdmin.UserName;
             values.Password = updatedAdmin.Password;
-            values.ImageUrl = updatedAdmin.ImageUrl;
+
+            if (updatedAdmin.ImageFile != null)
+            {
+                var currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
+                var saveLocation = currentDirectory + "images\\";
+                var fileName = Path.Combine(saveLocation, updatedAdmin.ImageFile.FileName);
+                updatedAdmin.ImageFile.SaveAs(fileName);
+                values.ImageUrl = "/images/" + updatedAdmin.ImageFile.FileName;
+            }
+
             db.SaveChanges();
             return Redirect(Request.UrlReferrer.ToString());
 
         }
+
+        [HttpGet]
+        public ActionResult ChangePasswordIndex()
+        {
+           
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult ChangePasswordIndex(Admin updatedAdmin)
+        {
+
+            var values = db.Tbl_Admin.Find(Session["userId"]);
+            if (values.Password != updatedAdmin.CurrentPassword)
+            {
+                ModelState.AddModelError("", "Current password is incorrect");
+                return View(updatedAdmin);
+            }
+            if (updatedAdmin.NewPassword != updatedAdmin.ConfirmPassword)
+            {
+                ModelState.AddModelError("", "Passwords do not match");
+                return View(updatedAdmin);
+            }
+
+            values.Password = updatedAdmin.NewPassword;
+            db.SaveChanges();
+            return RedirectToAction("LogOut", "Login");
+        }
+
 
 
     }
